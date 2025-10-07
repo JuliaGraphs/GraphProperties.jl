@@ -118,7 +118,7 @@ let
                 $($desc)
 
                 ```jldoctest
-                $($name)() isa GraphProperty{$($typ)}
+                $($name)() isa GraphProperty{$($typ)}  # true
                 ```
                 """
                 struct $name <: GraphProperty{$typ} end
