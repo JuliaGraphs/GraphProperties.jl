@@ -7,7 +7,7 @@ export
 abstract type GraphProperty{T} end
 
 struct PropertyComparison{
-    Comparison <: Union{typeof(==), typeof(≤), typeof(≥)},
+    Comparison <: Union{typeof(==), typeof(≤)},
     Property <: GraphProperty{<:Real},
     Value,
 } <: GraphProperty{Bool}
