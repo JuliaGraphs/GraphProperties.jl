@@ -8,3 +8,5 @@
 [![Coverage](https://codecov.io/gh/JuliaGraphs/GraphProperties.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaGraphs/GraphProperties.jl)
 [![PkgEval](https://JuliaCI.github.io/NanosoldierReports/pkgeval_badges/G/GraphProperties.svg)](https://JuliaCI.github.io/NanosoldierReports/pkgeval_badges/G/GraphProperties.html)
 [![Aqua](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
+
+Julia package for describing graph properties.
