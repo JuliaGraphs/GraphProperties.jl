@@ -29,7 +29,7 @@ struct PropertyComparison{
 end
 
 let
-    properties_abstractvector = Tuple{Symbol, String}[
+    properties_abstractvector_integer = Tuple{Symbol, String}[
         (:DegreeSequence, "The *degree sequence* of an undirected graph."),
     ]
     properties_real = Tuple{Symbol, String}[
@@ -104,7 +104,7 @@ let
         (:GraphIsSplitGraph, "Is an undirected graph a split graph?"),
     ]
     for (typ, properties) ∈ (
-        (AbstractVector, properties_abstractvector),
+        (AbstractVector{<:Integer}, properties_abstractvector_integer),
         (Real, properties_real),
         (Integer, properties_integer),
         (Bool, properties_bool),

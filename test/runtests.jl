@@ -8,7 +8,7 @@ using Test
         @test GraphIsChordal() isa GraphProperty{Bool}
         @test Arboricity() isa GraphProperty{Integer}
         @test FractionalChromaticNumber() isa GraphProperty{Real}
-        @test DegreeSequence() isa GraphProperty{AbstractVector}
+        @test DegreeSequence() isa GraphProperty{AbstractVector{<:Integer}}
     end
 end
 
