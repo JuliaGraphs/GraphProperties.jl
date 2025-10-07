@@ -2,6 +2,7 @@ module GraphProperties
 
 export
     GraphProperty,
+    graph_property_type,
     PropertyComparison
 
 """
@@ -12,6 +13,17 @@ Abstract supertype for graph properties.
 The only type parameter is the type of each value of the property.
 """
 abstract type GraphProperty{T} end
+
+"""
+    graph_property_type(::GraphProperty{T}) -> T
+
+Get the type of each value of the property.
+
+It is not allowed to add methods to this function.
+"""
+function graph_property_type(::GraphProperty{T}) where {T}
+    T
+end
 
 """
     PropertyComparison(comparison, property, value)

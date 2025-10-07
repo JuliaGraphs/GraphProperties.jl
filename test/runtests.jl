@@ -10,6 +10,12 @@ using Test
         @test FractionalChromaticNumber() isa GraphProperty{Real}
         @test DegreeSequence() isa GraphProperty{AbstractVector{<:Integer}}
     end
+    @testset "`graph_property_type`" begin
+        @test Bool === @inferred graph_property_type(GraphIsCograph())
+        @test Integer === @inferred graph_property_type(Degeneracy())
+        @test Real === @inferred graph_property_type(Strength())
+        @test AbstractVector{<:Integer} == @inferred graph_property_type(DegreeSequence())
+    end
 end
 
 using Aqua: Aqua
