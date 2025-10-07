@@ -1,0 +1,7 @@
+name = "GraphProperties"
+uuid = "bbdf290f-6e15-4dc1-adeb-6e1d1446781e"
+authors = ["Neven Sajko <s@purelymail.com> and contributors"]
+version = "1.0.0"
+
+[compat]
+julia = "1.10"
