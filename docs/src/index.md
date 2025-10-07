@@ -9,6 +9,12 @@ Documentation for [GraphProperties](https://github.com/JuliaGraphs/GraphProperti
 ```@index
 ```
 
+```@docs
+GraphProperty
+PropertyComparison
+```
+
 ```@autodocs
 Modules = [GraphProperties]
+Filter = !(t -> t in (GraphProperty, PropertyComparison))
 ```
