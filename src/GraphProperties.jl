@@ -50,6 +50,9 @@ let
         (:Strength, "The *strength* of an undirected graph."),
         (:AssortativityCoefficient, "The *assortativity coefficient* of an undirected graph."),
         (:GlobalClusteringCoefficient, "The *global clustering coefficient* of an undirected graph."),
+        (:CheegerConstant, "The *Cheeger constant* of an undirected graph. Also known as the *Cheeger number* or as the *isoperimetric number*."),
+        (:Circumference, "The *circumference* of an undirected graph."),
+        (:Girth, "The *girth* of an undirected graph."),
     ]
     properties_integer = Tuple{Symbol, String}[
         (:NumberOfVertices, "The *number of vertices* of a graph."),
@@ -65,7 +68,6 @@ let
         (:Radius, "The *radius* of a connected undirected graph."),
         (:Diameter, "The *diameter* of a connected undirected graph."),
         (:Triameter, "The *triameter* of a connected undirected graph."),
-        (:Girth, "The *girth* of a undirected graph: the length of its shortest cycle."),
         (:VertexConnectivity, "The *vertex-connectivity* of an undirected graph. Also known as the *connectivity*."),
         (:EdgeConnectivity, "The *edge-connectivity* of an undirected graph."),
         (:CliqueNumber, "The *clique number* of an undirected graph."),
@@ -84,6 +86,8 @@ let
         (:HadwigerNumber, "The *Hadwiger number* of an undirected graph. Also known as the *contraction clique number* or as the *homomorphism degree*."),
         (:TwinWidth, "The *twin-width* of an undirected graph."),
         (:CliqueWidth, "The *clique-width* of an undirected graph."),
+        (:TreeDepth, "The *tree-depth* of a connected undirected graph."),
+        (:CycleRank, "The *cycle rank* of a directed graph."),
         (:Treewidth, "The *treewidth* of an undirected graph."),
         (:Pathwidth, "The *pathwidth* of an undirected graph. Also known as the *interval thickness* or as the *vertex separation number* or as the *node searching number*."),
         (:Boxicity, "The *boxicity* of an undirected graph."),
