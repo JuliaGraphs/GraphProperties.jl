@@ -48,6 +48,8 @@ let
         (:FractionalChromaticNumber, "The *fractional chromatic number* of an undirected graph."),
         (:FractionalMatchingNumber, "The *fractional matching number* of an undirected graph."),
         (:Strength, "The *strength* of an undirected graph."),
+        (:AssortativityCoefficient, "The *assortativity coefficient* of an undirected graph."),
+        (:GlobalClusteringCoefficient, "The *global clustering coefficient* of an undirected graph."),
     ]
     properties_integer = Tuple{Symbol, String}[
         (:NumberOfVertices, "The *number of vertices* of a graph."),
@@ -60,6 +62,9 @@ let
         (:MaximumIndegree, "The *maximum indegree* among the indegrees of the vertices of a directed graph."),
         (:MinimumOutdegree, "The *minimum outdegree* among the outdegrees of the vertices of a directed graph."),
         (:MaximumOutdegree, "The *maximum outdegree* among the outdegrees of the vertices of a directed graph."),
+        (:Radius, "The *radius* of a connected undirected graph."),
+        (:Diameter, "The *diameter* of a connected undirected graph."),
+        (:Triameter, "The *triameter* of a connected undirected graph."),
         (:Girth, "The *girth* of a undirected graph: the length of its shortest cycle."),
         (:VertexConnectivity, "The *vertex-connectivity* of an undirected graph. Also known as the *connectivity*."),
         (:EdgeConnectivity, "The *edge-connectivity* of an undirected graph."),
