@@ -59,6 +59,8 @@ let
         (:NumberOfEdges, "The *number of edges* of an undirected graph."),
         (:NumberOfArcs, "The *number of arcs* of a directed graph."),
         (:NumberOfConnectedComponents, "The *number of connected components* of an undirected graph."),
+        (:NumberOfWeaklyConnectedComponents, "The *number of weakly connected components* of a directed graph."),
+        (:NumberOfStronglyConnectedComponents, "The *number of strongly connected components* of a directed graph."),
         (:MinimumDegree, "The *minimum degree* among the degrees of the vertices of an undirected graph."),
         (:MaximumDegree, "The *maximum degree* among the degrees of the vertices of an undirected graph."),
         (:MinimumIndegree, "The *minimum indegree* among the indegrees of the vertices of a directed graph."),
