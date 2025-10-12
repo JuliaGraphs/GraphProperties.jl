@@ -178,6 +178,7 @@ let
         (:GraphIsComparabilityGraph, "a *comparability graph*", [], ug),
         (:GraphIsDistanceHereditary, "*distance-hereditary*", [], ug),
         (:GraphIsSplitGraph, "a *split graph*", [], ug),
+        (:GraphIsThresholdGraph, "a *threshold graph*", [], ug),
         (:GraphIsCartesianProduct, "a *Cartesian product* of two graphs", ["a box product"], ug),
     ]
     for (typ, properties) ∈ (
